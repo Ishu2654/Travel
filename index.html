@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <style>
+        /* CSS Reset */
+        body,
+        h1,
+        h2,
+        h3,
+        p,
+        ul,
+        li {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        /* Header */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #444;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav ul li:last-child {
+            margin-right: 0;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+        }
+
+        /* Main Content */
+        main {
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .destination {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+
+        .destination img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        img{
+            height: 400px;
+            width: 400px;
+        }
+         #start{
+               font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Travel Adventures</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./destination.html">Destinations</a></li>
+            <li><a href="./tour.html">Tours</a></li>
+            <li><a href="./contact.html">Contact</a>
+         </ul>
+    
+    </nav>
+        <p id="start">
+        "Travel is the art of losing yourself in order to find yourself again."<br/> Explore the most beautiful destinations and plan your dream vacation with us.
+        </p>
+        <div class="destination">
+            <a href="./destination.html">
+            <img src="destination1.jpg" alt="Destination 1" />
+            </a>
+            <h3>Destination 1 : Paris</h3>
+            <p>
+                "Paris: The City of Light, Love, and History.From the Eiffel Tower to the Louvre, Paris is a city that never ceases to amaze."
+            </p>
+        </div>
+        <div class="destination">
+            <a href="./destination.html">
+            <img src="destination2.jpg" alt="Destination 2">
+            </a>
+            <h3>Destination 2 : Maldives</h3>
+            <p>
+               "The Maldives: A tropical paradise of white-sand beaches, crystal-clear waters, and lush green islands."
+            </p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Travel Adventures. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
